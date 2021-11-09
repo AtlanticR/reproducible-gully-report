@@ -1753,3 +1753,65 @@ is removed already so it might not be an issue in future report
 projects.
 
 </br>
+
+## Required edits to the LaTeX intermediate file (techreport.tex)
+
+There are two formatting issues that need to be fixed but it involves the editing of the intermediate [LaTeX](https://www.latex-project.org/) file (**_techreport.tex_**) that was generated from the **RMarkdown** files. It is stored in the **\_book** sub-folder where the **_techreport.pdf_** file is also located. The LaTeX file is used to generate the PDF document.
+
+Before editing the LaTeX file it must be copied from the **\_book** sub-folder to the main folder.
+
+### Problems to Fix
+
+**Problem 1:** The TABLES and FIGURES are subsections of the REFERENCES section instead of being their own sections.
+
+**Solution:** Removed the "sub" prefix from the TABLES and FIGURES sections.
+
+```latex
+\hypertarget{sec:tables}{%
+\subsection{TABLES}\label{sec:tables}}
+
+became
+
+\hypertarget{sec:tables}{%
+\section{TABLES}\label{sec:tables}}
+
+and
+
+\hypertarget{sec:figures}{%
+\subsection{FIGURES}\label{sec:figures}}
+
+became
+
+\hypertarget{sec:figures}{%
+\section{FIGURES}\label{sec:figures}}
+```
+<br/>
+
+**Problem 2:** Inline references when there are more than two authors are indicated with the format **\<Primary Author\> et al.**. Normally this **_et al._** phrase, which is the abbreviated version of the Latin phrase "et alia" meaning "and others", is italicized. I could not achieve this in RMarkdown.
+
+**Solution:** Did a search in the LaTeX document to find and replace all occurrences of "et al." with "\textit{et al.}". All 51 occurrences were changed.
+
+## Generate new PDF document
+
+Since the intermediate LaTeX file was edited it has to be converted to PDF format outside of RStudio.
+
+This is done within an operating system console window (using Windows 10 Anaconda command prompt in this instance but you can use the Terminal window within RStudio just as easily) by executing the following command:
+
+(base) PS C:\\dev\\new-gully-report> **xelatex techreport.tex**
+
+One will notice at first glance that:
+
+- the resulting PDF document has the correct section numbers for the Tables and Figures, 
+- the "et al." phrases are all italicized, but
+- the Table of Contents (TOC) is totally empty, and
+- some in-document links to the tables and figures may be invalid as indicated by question marks.
+
+Checking the console window one will notice two warnings at the end of compilation, which are: 
+
+1. LaTeX Warning: There were undefined references.
+
+2. LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Re-running the command will generate the TOC and fix the in-document links to tables and figures but still one of the two warnings remained.  Executing the command a third time gets rid of the last warning.
+
+## Congratulations! The final report has been generated. :smiley:
