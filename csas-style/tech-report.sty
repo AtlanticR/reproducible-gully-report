@@ -399,7 +399,10 @@ Correct citation for this publication:
 \tableofcontents\clearpage
 
 % Lists of figures and tables (optional)
-% \listoffigures \listoftables \clearpage
+\listoftables
+\clearpage
+\listoffigures
+\clearpage
 
 % Abstract page(s)
 \section*{ABSTRACT}\addcontentsline{toc}{section}{ABSTRACT}
@@ -415,10 +418,6 @@ Correct citation for this publication:
 \clearpage
 
 % Settings for the main document
-\listoftables
-\clearpage
-\listoffigures
-\clearpage
 \pagenumbering{arabic}  % Regular page numbers
 \pagestyle{plain}  % No page number on first page of main document, use 'empty'
 \renewcommand*{\thefootnote}{\arabic{footnote}}  % Back to numeric footnotes

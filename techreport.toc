@@ -1,8 +1,8 @@
 \babel@toc {english}{}
-\contentsline {section}{ABSTRACT}{vi}{section*.2}%
-\contentsline {section}{R\'{E}SUM\'{E}}{vii}{section*.3}%
-\contentsline {section}{LIST OF TABLES}{viii}{section*.4}%
-\contentsline {section}{LIST OF FIGURES}{x}{section*.5}%
+\contentsline {section}{LIST OF TABLES}{vi}{section*.2}%
+\contentsline {section}{LIST OF FIGURES}{viii}{section*.3}%
+\contentsline {section}{ABSTRACT}{xiii}{section*.4}%
+\contentsline {section}{R\'{E}SUM\'{E}}{xiv}{section*.5}%
 \contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}\textbf {THE GULLY MARINE PROTECTED AREA}}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}\textbf {ENVIRONMENTAL MONITORING OF THE GULLY}}{1}{subsection.1.2}%
@@ -44,5 +44,5 @@
 \contentsline {section}{\numberline {5}SUMMARY}{30}{section.5}%
 \contentsline {section}{\numberline {6}ACKNOWLEDGEMENTS}{31}{section.6}%
 \contentsline {section}{\numberline {7}REFERENCES}{32}{section.7}%
-\contentsline {section}{\numberline {8}TABLES}{36}{section.8}%
-\contentsline {section}{\numberline {9}FIGURES}{54}{section.9}%
+\contentsline {subsection}{\numberline {7.1}TABLES}{36}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}FIGURES}{54}{subsection.7.2}%
