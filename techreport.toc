@@ -44,5 +44,5 @@
 \contentsline {section}{\numberline {5}SUMMARY}{30}{section.5}%
 \contentsline {section}{\numberline {6}ACKNOWLEDGEMENTS}{31}{section.6}%
 \contentsline {section}{\numberline {7}REFERENCES}{32}{section.7}%
-\contentsline {section}{\numberline {8}TABLES}{36}{section.8}%
-\contentsline {section}{\numberline {9}FIGURES}{54}{section.9}%
+\contentsline {subsection}{\numberline {7.1}TABLES}{36}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}FIGURES}{54}{subsection.7.2}%
