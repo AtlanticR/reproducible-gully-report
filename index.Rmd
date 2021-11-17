@@ -15,8 +15,8 @@ address: |
      Fisheries and Oceans Canada\
      Bedford Institute of Oceanography\
      P.O. Box 1006\
-     Dartmouth, Nova Scotia\
-     Canada, B2Y 4A2
+     Dartmouth, Nova Scotia, Canada\
+     B2Y 4A2
 phone: "(902) 426-2373"
 author_footnote: "Email: Jeffrey.Jackson @ dfo-mpo.gc.ca"
 abstract: |
