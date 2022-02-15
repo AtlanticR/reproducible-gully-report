@@ -775,7 +775,7 @@ To reproduce the report stored in this repository, the user must have
 and [Rtools](https://cran.r-project.org/bin/windows/Rtools/) installed
 on their computer.
 
-It also helps to eliminate possible errors by installing the devtools R
+It also helps to eliminate possible errors by installing the **devtools** R
 package.
 
 **Step 1.** Download the repository from GitHub by clicking the Code
