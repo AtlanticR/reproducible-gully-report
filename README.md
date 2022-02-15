@@ -29,8 +29,8 @@ The purpose of these instructions is two-fold: A) to provide a basic
 demonstration to new users of **csasdown** on how to create a
 reproducible DFO technical report, and B) to provide a guide to the
 scripts used to create the Canadian Technical Report of Hydrography and
-Ocean Sciences report titled “Ocean monitoring of the Gully MPA - A
-synopsis of data collected by the Atlantic Zone Monitoring Program”.
+Ocean Sciences report titled [“Ocean monitoring of the Gully MPA - A
+synopsis of data collected by the Atlantic Zone Monitoring Program”](https://cat.fsl-bsf.scitech.gc.ca/record=b4101498~S1).
 
 It is our hope that future initiatives aimed at analyzing and reporting
 on the oceanographic conditions of the Gully MPA could utilize these
