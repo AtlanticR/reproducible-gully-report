@@ -1706,7 +1706,7 @@ accessible in base R:
 </br>
 
 It is also required to download and install the free version of
-[Ghostscript](https://www.ghostscript.com/download/gsdnld.html).
+[Ghostscript](https://www.ghostscript.com).
 
 The path (e.g. *(C:\\Program Files\\gs\\gs9.54.0\\bin)*) to the
 Ghostscript executable must be added to the Windows user PATH variable.
